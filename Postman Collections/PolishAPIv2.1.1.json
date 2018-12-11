@@ -1,0 +1,878 @@
+{
+  "info": {
+    "_postman_id": "171b99c4-5b25-4979-b23b-897acb7beae5",
+    "name": "PolishAPIv2.1.1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "66e67887-a9e6-4b65-be49-5b2d872a82c1",
+      "name": "/v2_1.1/auth/v2_1.1/authorize",
+      "description": "/v2_1.1/auth/v2_1.1/authorize",
+      "item": [
+        {
+          "_postman_id": "be61c406-e12f-4ca2-b6d5-4e2020ccb58d",
+          "name": "https://psd2gateway.westeurope.cloudapp.azure.com:8443/v2_1.1/auth/v2_1.1/authorize",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/auth/v2_1.1/authorize?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "08b9d376-8d14-497a-8092-94997fb4cf10",
+      "name": "/v2_1.1/auth/v2_1.1/authorizeExt",
+      "description": "/v2_1.1/auth/v2_1.1/authorizeExt",
+      "item": [
+        {
+          "_postman_id": "5f6f0f77-51ae-4248-8cca-8032323004dc",
+          "name": "https://apiHost//v2_1.1/auth/v2_1.1/authorizeExt",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/auth/v2_1.1/authorizeExt?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "4394aad8-4424-42c3-a546-117d944089de",
+      "name": "/v2_1.1/auth/v2_1.1/token",
+      "description": "/v2_1.1/auth/v2_1.1/token",
+      "item": [
+        {
+          "_postman_id": "f287e202-02ac-4da3-a5e8-b0dd3c2244b4",
+          "name": "https://apiHost//v2_1.1/auth/v2_1.1/token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/auth/v2_1.1/token?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "a29dfbc9-7de8-4262-baba-658f7c89353c",
+      "name": "/v2_1.1/accounts/v2_1.1/deleteConsent",
+      "description": "/v2_1.1/accounts/v2_1.1/deleteConsent",
+      "item": [
+        {
+          "_postman_id": "93cbf8f3-3ef6-4c89-b744-7d580999472c",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/deleteConsent",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/deleteConsent?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "7e688f34-6caa-4444-8179-127f9c45f91e",
+      "name": "/v2_1.1/accounts/v2_1.1/getAccounts",
+      "description": "/v2_1.1/accounts/v2_1.1/getAccounts",
+      "item": [
+        {
+          "_postman_id": "21b482b3-8da4-47e8-9887-fced1073e75e",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getAccounts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getAccounts?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "799fa71c-61b1-4ae8-bcb9-0597760f7460",
+      "name": "/v2_1.1/accounts/v2_1.1/getAccount",
+      "description": "/v2_1.1/accounts/v2_1.1/getAccount",
+      "item": [
+        {
+          "_postman_id": "5f84b637-7a42-4f19-bab2-891f4c42b250",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getAccount",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getAccount?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "fa4bbaba-4df8-431c-ac72-996eda69defa",
+      "name": "/v2_1.1/accounts/v2_1.1/getTransactionsDone",
+      "description": "/v2_1.1/accounts/v2_1.1/getTransactionsDone",
+      "item": [
+        {
+          "_postman_id": "05cf86ed-502f-45f1-ab4e-ea1683ffc775",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsDone",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsDone?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "5c484f96-950c-4b61-8458-858b6d7b2cb9",
+      "name": "/v2_1.1/accounts/v2_1.1/getTransactionsPending",
+      "description": "/v2_1.1/accounts/v2_1.1/getTransactionsPending",
+      "item": [
+        {
+          "_postman_id": "784e5f32-ab24-4659-895f-cf97984b77ec",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsPending",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsPending?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "a5f70b7a-5679-4683-92a8-fb1003960623",
+      "name": "/v2_1.1/accounts/v2_1.1/getTransactionsRejected",
+      "description": "/v2_1.1/accounts/v2_1.1/getTransactionsRejected",
+      "item": [
+        {
+          "_postman_id": "14140927-f0d2-4b1f-b4c2-18705bf92907",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsRejected",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsRejected?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "35988620-8628-4031-8e6a-ea4f445aff09",
+      "name": "/v2_1.1/accounts/v2_1.1/getTransactionsCancelled",
+      "description": "/v2_1.1/accounts/v2_1.1/getTransactionsCancelled",
+      "item": [
+        {
+          "_postman_id": "a47a05f7-aeee-4b66-8f98-381faf9c8099",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsCancelled",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsCancelled?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "b5a7a62e-aa89-4a77-a314-dbcf4ba38ad0",
+      "name": "/v2_1.1/accounts/v2_1.1/getTransactionsScheduled",
+      "description": "/v2_1.1/accounts/v2_1.1/getTransactionsScheduled",
+      "item": [
+        {
+          "_postman_id": "574e3652-3698-4758-8ae8-c8d20e3ad4ea",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsScheduled",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionsScheduled?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "6adadc8e-4dd9-48cd-9ba0-44b7952ca3c5",
+      "name": "/v2_1.1/accounts/v2_1.1/getHolds",
+      "description": "/v2_1.1/accounts/v2_1.1/getHolds",
+      "item": [
+        {
+          "_postman_id": "f8a137c8-52ca-4c79-8503-757806a8165b",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getHolds",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getHolds?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "a1bfb910-1157-4f95-b41e-c8d27522062e",
+      "name": "/v2_1.1/accounts/v2_1.1/getTransactionDetail",
+      "description": "/v2_1.1/accounts/v2_1.1/getTransactionDetail",
+      "item": [
+        {
+          "_postman_id": "519e6302-94e4-41b7-ac6c-00430a295c21",
+          "name": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionDetail",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/accounts/v2_1.1/getTransactionDetail?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "52de41e1-286f-4cd1-a181-90a4dd21c271",
+      "name": "/v2_1.1/payments/v2_1.1/domestic",
+      "description": "/v2_1.1/payments/v2_1.1/domestic",
+      "item": [
+        {
+          "_postman_id": "f0268cf9-ad89-4f53-a356-0d6bcfc658fa",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/domestic",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/domestic?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "5d7492dc-031b-4581-ad27-1c2889dd553f",
+      "name": "/v2_1.1/payments/v2_1.1/EEA",
+      "description": "/v2_1.1/payments/v2_1.1/EEA",
+      "item": [
+        {
+          "_postman_id": "3735279e-31d8-4365-84a1-528a4951164f",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/EEA",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/EEA?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "e55d487b-1ced-470a-a053-64baf3f52382",
+      "name": "/v2_1.1/payments/v2_1.1/nonEEA",
+      "description": "/v2_1.1/payments/v2_1.1/nonEEA",
+      "item": [
+        {
+          "_postman_id": "46abf0d1-596c-4d60-b1ed-3d44dbff8e8d",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/nonEEA",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/nonEEA?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "77ba0b8a-e1ae-4ce3-b51e-f930351723bd",
+      "name": "/v2_1.1/payments/v2_1.1/tax",
+      "description": "/v2_1.1/payments/v2_1.1/tax",
+      "item": [
+        {
+          "_postman_id": "b6dd1a14-97f4-4de7-b384-a155ff7058b5",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/tax",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/tax?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "5368f8e4-3b20-4557-bc9e-4f076ade08d7",
+      "name": "/v2_1.1/payments/v2_1.1/bundle",
+      "description": "/v2_1.1/payments/v2_1.1/bundle",
+      "item": [
+        {
+          "_postman_id": "752eb046-eb72-47ab-8926-cc91125535d8",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/bundle",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/bundle?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "72538b13-20ad-451a-ad22-f31d2763cbaf",
+      "name": "/v2_1.1/payments/v2_1.1/getPayment",
+      "description": "/v2_1.1/payments/v2_1.1/getPayment",
+      "item": [
+        {
+          "_postman_id": "64e6bfe2-e1fb-4dbb-b261-81910ad02055",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/getPayment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/getPayment?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "41e1f67a-9c09-4b5f-ab15-258fb4ba7c3b",
+      "name": "/v2_1.1/payments/v2_1.1/getBundle",
+      "description": "/v2_1.1/payments/v2_1.1/getBundle",
+      "item": [
+        {
+          "_postman_id": "35e840ef-8937-4b28-a052-5afc91fd4122",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/getBundle",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/getBundle?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "d63937d5-537b-4c4b-b0e1-3ce09a7e1413",
+      "name": "/v2_1.1/payments/v2_1.1/getMultiplePayments",
+      "description": "/v2_1.1/payments/v2_1.1/getMultiplePayments",
+      "item": [
+        {
+          "_postman_id": "6a32b669-3ecb-47d4-b247-302e1f33a575",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/getMultiplePayments",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/getMultiplePayments?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "fabb77b1-0888-43da-a12f-9f9e362140d5",
+      "name": "/v2_1.1/payments/v2_1.1/cancelPayments",
+      "description": "/v2_1.1/payments/v2_1.1/cancelPayments",
+      "item": [
+        {
+          "_postman_id": "51dc407c-bc21-4ac6-ad97-f62e0875aab0",
+          "name": "https://apiHost//v2_1.1/payments/v2_1.1/cancelPayments",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": ""
+              },
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/payments/v2_1.1/cancelPayments?"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "aef137ce-627c-4475-82ac-5df143d3ff4f",
+      "name": "/v2_1.1/confirmation/v2_1.1/getConfirmationOfFunds",
+      "description": "/v2_1.1/confirmation/v2_1.1/getConfirmationOfFunds",
+      "item": [
+        {
+          "_postman_id": "93059b97-e9c1-4648-8a80-947da1b1e5e5",
+          "name": "https://apiHost//v2_1.1/confirmation/v2_1.1/getConfirmationOfFunds",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept-Encoding",
+                "value": ""
+              },
+              {
+                "key": "Accept-Language",
+                "value": ""
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8"
+              },
+              {
+                "key": "X-JWS-SIGNATURE",
+                "value": ""
+              }
+            ],
+            "body": {},
+            "url": "https://apiHost//v2_1.1/confirmation/v2_1.1/getConfirmationOfFunds?"
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
